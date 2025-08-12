@@ -1,0 +1,28 @@
+{
+  "name": "stayin-alive",
+  "version": "1.0.0",
+  "description": "CRON job with Redis logging to keep my Render instance from spinning down",
+  "main": "src/ping.ts",
+  "scripts": {
+    "dev": "npx ts-node src/ping.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taha-shahid1/stayin-alive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/taha-shahid1/stayin-alive/issues"
+  },
+  "homepage": "https://github.com/taha-shahid1/stayin-alive#readme",
+  "dependencies": {
+    "@types/node": "^24.2.1",
+    "@upstash/redis": "^1.35.3",
+    "dotenv": "^17.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+}
+}
